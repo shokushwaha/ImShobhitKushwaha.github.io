@@ -47,7 +47,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-    text-shadow:2px 5px 10px #ffff33;
+    text-shadow: 2px 5px 10px #ffff33;
 }
 
 nav ul li a {
@@ -67,7 +67,7 @@ nav ul li a::after {
     position: absolute;
     left: 0;
     bottom: -6px;
-    
+
 
 }
 
@@ -206,6 +206,8 @@ nav ul li a:hover::after {
     font-weight: 400;
     border-radius: 20px;
     transition: transform 0.5s, background 0.5s;
+    box-shadow: 9px 9px 34px yellow;
+
 }
 
 .services-list div i {
@@ -254,6 +256,7 @@ nav ul li a:hover::after {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    
 }
 
 .work img {
@@ -286,8 +289,9 @@ nav ul li a:hover::after {
 }
 
 .layer h3 {
-    font-weight: 500;
-    margin-bottom: 20px;
+    font-weight: 900;
+    margin-bottom: 80px;
+    color: white;
 
 }
 
@@ -431,7 +435,7 @@ form .btn2 {
 
 
 
-#msg{
+#msg {
     color: #ffff33;
     margin-top: -40px;
     display: inline-block;
